@@ -44,6 +44,8 @@
     width 100%
     height 98px
     display flex
+    z-index 10
+    background #fff
     .navlist
       display flex
       width 100%
