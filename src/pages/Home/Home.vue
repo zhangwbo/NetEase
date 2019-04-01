@@ -347,6 +347,69 @@
       </ul>
     </div>
 
+    <!--新品首发-->
+    <div class="newGoods">
+      <div class="newTitle">
+        <span>新品首发</span>
+        <span>更多<i class="iconfont icon-jiantou"></i></span>
+      </div>
+      <ul class="newList">
+        <li>
+          <div class="newImg">
+            <img data-original="http://yanxuan.nosdn.127.net/55d8d878ee00b7a59c1b45f740087c93.png?imageView&amp;quality=65&amp;thumbnail=330x330" data-src="http://yanxuan.nosdn.127.net/55d8d878ee00b7a59c1b45f740087c93.png?imageView&amp;quality=65&amp;thumbnail=330x330" class="swiper-lazy" data-reactid=".0.5.3.1.0.$0.0.0.0.0.0" src="http://yanxuan.nosdn.127.net/55d8d878ee00b7a59c1b45f740087c93.png?imageView&amp;quality=65&amp;thumbnail=330x330" style="display: block;">          </div>
+          <div class="goodName">
+            <span class="ellipsis">2019新茶，明前特级，清新怡人&nbsp;</span>
+            <span class="price">￥268</span>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img data-original="http://yanxuan.nosdn.127.net/7a04f29031ce5b7aabb14c22c6ac327d.png?imageView&amp;quality=65&amp;thumbnail=330x330" data-src="http://yanxuan.nosdn.127.net/7a04f29031ce5b7aabb14c22c6ac327d.png?imageView&amp;quality=65&amp;thumbnail=330x330" class="swiper-lazy" data-reactid=".0.5.3.1.0.$1.0.0.0.0.0" src="http://yanxuan.nosdn.127.net/7a04f29031ce5b7aabb14c22c6ac327d.png?imageView&amp;quality=65&amp;thumbnail=330x330" style="display: block;">          </div>
+          <div class="goodName">
+            <span>半干鲜面，筋道好味&nbsp; 4盒装</span>
+            <span class="price">￥74.9</span>
+          </div>
+          <div class="label">
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img data-original="http://yanxuan.nosdn.127.net/215bab0a359cda90cce19ea074a06d74.png?imageView&amp;quality=65&amp;thumbnail=330x330" data-src="http://yanxuan.nosdn.127.net/215bab0a359cda90cce19ea074a06d74.png?imageView&amp;quality=65&amp;thumbnail=330x330" class="swiper-lazy" data-reactid=".0.5.3.1.0.$2.0.0.0.0.0" src="http://yanxuan.nosdn.127.net/215bab0a359cda90cce19ea074a06d74.png?imageView&amp;quality=65&amp;thumbnail=330x330" style="display: block;">          </div>
+          <div class="goodName">
+            <span class="ellipsis">男式全棉干爽型宽松短袖T恤男式全棉干爽型宽松短袖T恤...&nbsp;</span>
+            <span class="price">￥79</span>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img data-original="http://yanxuan.nosdn.127.net/e6b492900b7c7e5b03d5a2fdca02c084.png?imageView&amp;quality=65&amp;thumbnail=330x330" data-src="http://yanxuan.nosdn.127.net/e6b492900b7c7e5b03d5a2fdca02c084.png?imageView&amp;quality=65&amp;thumbnail=330x330" class="swiper-lazy" data-reactid=".0.5.3.1.0.$3.0.0.0.0.0" src="http://yanxuan.nosdn.127.net/e6b492900b7c7e5b03d5a2fdca02c084.png?imageView&amp;quality=65&amp;thumbnail=330x330" style="display: block;">
+          </div>
+          <div class="goodName">
+            <span>牛漆皮 圆头女士粗跟鞋&nbsp;</span>
+            <span class="price">￥299</span>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img data-original="http://yanxuan.nosdn.127.net/6734165bacee55d2e031b8227e8c522f.png?imageView&amp;quality=65&amp;thumbnail=330x330" data-src="http://yanxuan.nosdn.127.net/6734165bacee55d2e031b8227e8c522f.png?imageView&amp;quality=65&amp;thumbnail=330x330" class="swiper-lazy" data-reactid=".0.5.3.1.0.$4.0.0.0.0.0" src="http://yanxuan.nosdn.127.net/6734165bacee55d2e031b8227e8c522f.png?imageView&amp;quality=65&amp;thumbnail=330x330" style="display: block;">
+          </div>
+          <div class="goodName">
+            <span>男式经典三防商务休闲裤&nbsp;</span>
+            <span class="price">￥199</span>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img data-original="http://yanxuan.nosdn.127.net/b1f7d3096d12d0e4f9e0bbc7232e9295.png?imageView&amp;quality=65&amp;thumbnail=330x330" data-src="http://yanxuan.nosdn.127.net/b1f7d3096d12d0e4f9e0bbc7232e9295.png?imageView&amp;quality=65&amp;thumbnail=330x330" class="swiper-lazy" data-reactid=".0.5.3.1.0.$5.0.0.0.0.0" src="http://yanxuan.nosdn.127.net/b1f7d3096d12d0e4f9e0bbc7232e9295.png?imageView&amp;quality=65&amp;thumbnail=330x330" style="display: block;">
+          </div>
+          <div class="goodName">
+            <span>日式水洗工艺，慵懒自然宜裸睡&nbsp;</span>
+            <span class="price">￥299</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
     <!--人气推荐-->
     <div class="personTro">
       <div class="personTroTitle">
@@ -509,6 +572,52 @@
       </ul>
     </div>
 
+    <!--专题精选-->
+    <div class="special">
+      <div class="selected">
+        <h3>专题精选</h3>
+        <span class="more">更多></span>
+      </div>
+      <div class="content">
+        <ul class="content-list">
+          <li>
+            <a href="javascript:;">
+              <img src="https://yanxuan.nosdn.127.net/e8f232c7b25fd412afbdf4ba785e1f0d.jpg?imageView&thumbnail=575y322&enlarge=1&quality=75" alt="">
+              <div class="text">
+                <div class="ellipsis textItem">
+                  <span class="title ">2019明前春茶新鲜上市, 尝过这一口, 才算不辜负春天</span>
+                </div>
+                <span class="desc">把整个春天，酿成明前一杯茶</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="https://yanxuan.nosdn.127.net/e8f232c7b25fd412afbdf4ba785e1f0d.jpg?imageView&thumbnail=575y322&enlarge=1&quality=75" alt="">
+              <div class="text">
+                <div class="ellipsis textItem">
+                  <span class="title ">2019明前春茶新鲜上市, 尝过这一口, 才算不辜负春天</span>
+                </div>
+                <span class="desc">把整个春天，酿成明前一杯茶</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="https://yanxuan.nosdn.127.net/e8f232c7b25fd412afbdf4ba785e1f0d.jpg?imageView&thumbnail=575y322&enlarge=1&quality=75" alt="">
+              <div class="text">
+                <div class="ellipsis textItem">
+                  <span class="title ">2019明前春茶新鲜上市, 尝过这一口, 才算不辜负春天</span>
+                </div>
+                <span class="desc">把整个春天，酿成明前一杯茶</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--众筹-->
 
   </div>
 </template>
@@ -528,7 +637,12 @@
     mounted(){
       //导航滚动
       new BScroll('.nav',{
-        scrollX:true
+        scrollX:true,
+        click:true
+      })
+      new BScroll('.content',{
+        scrollX:true,
+        click:true
       })
 
       //轮播图
@@ -543,7 +657,6 @@
           el: '.swiper-pagination',
         }
       })
-
     },
 
     methods:{
@@ -557,6 +670,7 @@
 </script>
 
 <style lang="stylus" type="text/stylus">
+  @import "../../common/stylus/mixins.styl"
   #homeController
     width 100%
     height 100%
@@ -621,10 +735,10 @@
         position relative
         width 100%
         height 60px
+        box-sizing border-box
         line-height 60px
         padding 0 20px
         font-size 30px
-        z-index 10
         .mask
           position absolute
           top 380px
@@ -651,10 +765,12 @@
             color #7e8c8d
             font-size 40px
       .switchMenu
+        position relative
         width 100%
         height 312px
         padding-top 20px
         background #fff
+        z-index 10
         ul
           display flex
           flex-wrap wrap
@@ -678,7 +794,6 @@
     .swiper-container
       width 100%
       height 400px
-      z-index -1
       swiper-slide
         width 100%
         height 400px
@@ -731,11 +846,14 @@
       img
         height 160px
     .recommend
-      width 100%
-      height 575px
       display flex
       flex-wrap wrap
-      padding 10px 20px 0
+      align-content space-around
+      justify-content space-around
+      padding 10px 18px
+      box-sizing border-box
+      width 100%
+      height 575px
       background #fff
       margin-bottom 20px
       .item
@@ -819,6 +937,110 @@
                 left 50%
                 top 50%
                 transform translate(-50% ,-50%)
+    .newGoods
+      width 100%
+      height 860px
+      box-sizing border-box
+      padding 0 20px
+      margin-bottom 20px
+      background #fff
+      .newTitle
+        height 100px
+        display flex
+        font-size 35px
+        align-items center
+        justify-content space-between
+      .newList
+        width 100%
+        height 598px
+        display flex
+        justify-content space-between
+        flex-wrap wrap
+        li
+          width 32%
+          height 354px
+          margin-bottom 14px
+          .newImg
+            width 100%
+            height 218px
+            background-color #F6F6F6
+            margin-bottom 20px
+            img
+              width 100%
+              height 100%
+          .goodName
+            line-height 30px
+            span
+              width 200px
+              display inline-block
+            .price
+              color red
+            p
+              float left
+              padding 2px 10px
+              border 2px solid red
+              border-radius 10px
+              margin-right 10px
+            .vouchers
+              width 170px
+              height 24px
+              display inline-block
+              background-color white
+              padding 2px 4px
+              border 1px solid red
+              position relative
+              text-align center
+              font-size 10px
+              margin-left 12px
+              .left
+                width 10%
+                height 30px
+                position absolute
+                left -7%
+                top -1px
+              .right
+                width 10%
+                height 30px
+                position absolute
+                right -7%
+                top -1px
+      .fourBrand
+        border-top 30px solid #F5F5F5
+        width 100%
+        box-sizing border-box
+        padding 0 20px
+        .brandList
+          height 554px
+          li
+            float left
+            width 49.3%
+            height 261px
+            background-color #F6F6F6
+            margin-top 8px
+            position relative
+            &:nth-child(2n)
+              margin-left 8px
+            .twoImg
+              display flex
+              margin-top 25%
+              img
+                width 50%
+                height 50%
+            .brandWord
+              width 100%
+              position absolute
+              left 50%
+              top 20px
+              transform translateX(-50%)
+              padding-left 15%
+              h4
+                font-size 33px
+                color #333
+                margin-bottom 5px
+              .upNew
+                font-size 27px
+                color #7F7F7F
+                margin-top 3px
     .personTro
       width 100%
       height 784px
@@ -979,6 +1201,7 @@
       box-sizing border-box
       padding 0 20px
       background #fff
+      margin-bottom 20px
       .brandTitle
         height 100px
         display flex
@@ -1023,6 +1246,50 @@
                 line-height 34px
                 border-radius 4px
                 color white
+    .special
+      box-sizing border-box
+      padding 0 20px
+      background #fff
+      margin-bottom 20px
+      .selected
+        display flex
+        justify-content space-between
+        align-items center
+        height 100px
+        h3
+          font-size 30px
+        .more
+          font-size 30px
+      .content
+        .content-list
+          height 375px
+          display flex
+          li
+            background #F5F5F5
+            width 480px
+            padding-bottom 20px
+            margin-right 20px
+            a
+              display flex
+              flex-direction column
+              justify-content space-between
+              width 480px
+              img
+                width 480px
+                height 267px
+                margin-bottom 15px
+              .text
+                padding 0 15px
+                display flex
+                flex-direction column
+                justify-content space-around
+                .textItem
+                  margin-bottom 5px
+                  .title
+                    display inline-block
+                    width 480px
+                    font-size 30px
+                    color #333
 
 </style>
 
