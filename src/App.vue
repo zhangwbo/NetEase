@@ -2,17 +2,13 @@
   <div id="app">
     <router-view/>
 
-    <Footer/>
+    <Footer v-show="$route.meta.isShow"/>
   </div>
 </template>
 
 <script>
   import Footer from './components/FooterGuide/Footer.vue'
   export default{
-    mounted(){
-      this.$store.dispatch('getHomeData')
-      this.$store.dispatch('getCategory')
-    },
     components:{
       Footer
     }

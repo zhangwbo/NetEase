@@ -434,6 +434,7 @@
   import {mapState} from 'vuex'
   export default{
     mounted(){
+      this.$store.dispatch('getHomeData')
       //滚动
       new BScroll('#homeController',{
         scrollX:true,
@@ -447,12 +448,11 @@
         scrollX:true,
         click:true
       })
-
     },
 
     computed:{
       ...mapState({
-        homeData:state=>state.homeData
+        homeData:state=>state.home.homeData
       })
     }
   }
