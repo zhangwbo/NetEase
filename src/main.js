@@ -8,9 +8,11 @@ import store from './store'
 import './mock/mockServer.js'
 
 import Header from './components/Header/Header.vue'
+import HeaderSlot from './components/HeaderSlot/HeaderSlot.vue'
 import Swiper from './components/Swiper/Swiper.vue'
 
 Vue.component('Header', Header)
+Vue.component('HeaderSlot', HeaderSlot)
 Vue.component('Swiper', Swiper)
 
 new Vue({

@@ -1,6 +1,18 @@
 <template>
   <div id="personalController">
-    <header class="header"></header>
+    <HeaderSlot>
+      <div slot="left">
+        <i class="iconfont icon-shouye"></i>
+      </div>
+      <div slot="netease">
+        <a href="javascript:;">网易严选</a>
+      </div>
+      <div slot="right">
+        <i class="iconfont icon-sousuo"></i>
+        <i class="iconfont icon-gouwuche"></i>
+      </div>
+    </HeaderSlot>
+
     <div class="login">
       <div class="logo">
         <img src="http://yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png" alt="">
@@ -52,9 +64,6 @@
 
 <style lang="stylus" type="text/stylus">
   #personalController
-    .header
-      height 88px
-      background lightblue
     .login
       .logo
         display flex

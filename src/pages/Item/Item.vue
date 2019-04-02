@@ -1,6 +1,11 @@
 <template>
   <div id="ItemController" >
-    <header class="header"></header>
+    <HeaderSlot>
+      <div class="search" slot="search">
+        <i class="iconfont icon-sousuo"></i>
+        <span>搜索商品，共22487款好物</span>
+      </div>
+    </HeaderSlot>
     <section>
       <div class="left">
         <ul class="leftUl">
@@ -84,9 +89,12 @@
   @import "../../common/stylus/mixins.styl"
   #ItemController
     background #fff
-    .header
-      height 80px
-      background #fff
+    .search
+      width 690px
+      height 56px
+      line-height 50px
+      background #ededed
+      border-radius 5px
     section
       display flex
       top-border-1px(#ccc)
@@ -111,7 +119,6 @@
       .right
         box-sizing border-box
         height 1148px
-
         .scroll
           padding 30px 30px 21px 30px
           .rightImg

@@ -1,5 +1,9 @@
 <template>
   <div id="cartController">
+    <HeaderSlot>
+      <span slot="cart">购物车</span>
+      <span slot="cartRight">领劵</span>
+    </HeaderSlot>
     <ul class="list">
       <li>
         <i class="iconfont icon-yuandian"></i>
@@ -28,11 +32,13 @@
 
 <style lang="stylus" type="text/stylus">
   #cartController
+
     .list
       display flex
-      justify-content space-around
+      justify-content space-between
       color #333
       height 70px
+      padding 0 40px
       li
         display flex
         align-items center
@@ -44,7 +50,7 @@
       flex-direction column
       align-items center
       justify-content center
-      margin 500px 0
+      margin 300px 0
       img
         width 248px
         height 248px

@@ -46,6 +46,7 @@
       <span>全部频道</span>
       <div class="mask" @click="isShow = false"></div>
     </div>
+
     <!--下拉菜单-->
     <div class="menu" @click="handleMenu">
       <div class="menu-icon">
