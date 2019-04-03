@@ -1,10 +1,10 @@
 <template>
   <div id="personalController">
     <HeaderSlot>
-      <div slot="left">
+      <div slot="left" @click="togoHome">
         <i class="iconfont icon-shouye"></i>
       </div>
-      <div slot="netease">
+      <div slot="netease" @click="togoHome">
         <a href="javascript:;">网易严选</a>
       </div>
       <div slot="right">
@@ -59,7 +59,13 @@
 </template>
 
 <script>
-  export default{}
+  export default{
+    methods:{
+      togoHome(){
+        this.$router.replace('/home')
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" type="text/stylus">

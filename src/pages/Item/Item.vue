@@ -6,7 +6,7 @@
         <span>搜索商品，共22487款好物</span>
       </div>
     </HeaderSlot>
-    <section>
+    <section >
       <div class="left">
         <ul class="leftUl">
           <li :class="{active:currentIndex === index}"
@@ -14,6 +14,7 @@
           @click="handleclick(index)">{{item.name}}</li>
         </ul>
       </div>
+
       <div class="right" v-if="category.categoryL1List">
         <div class="scroll">
           <img class="rightImg" :src="category.categoryL1List[currentIndex].wapBannerUrl" alt="">
@@ -35,15 +36,27 @@
   import BScroll from 'better-scroll'
   import {mapState} from 'vuex'
   export default{
+
     data(){
       return{
         currentIndex : 0
       }
     },
 
-    mounted(){
-      this.$store.dispatch('getCategory')
 
+    mounted(){
+      this.$store.dispatch('getCategory',() => {
+        this.$nextTick(()=>{
+          new BScroll('.right',{
+            click:true,
+            scrollY:true
+          })
+          new BScroll('.left',{
+            click:true,
+            scrollY:true
+          })
+        })
+      })
     },
 
     computed:{
@@ -52,30 +65,26 @@
       })
     },
 
-    beforeUpdate(){
-      //左侧滑动
-      if(!this.left){
-        this.$nextTick(() => {
-          this.left = new BScroll('.left',{
-            click:true,
-            scrollY:true
-          })
-        })
-      }else{
-        this.left.refresh()
-      }
-      //右侧滑动
-      if(!this.right){
-        this.$nextTick(() => {
-          this.right = new BScroll('.right',{
-            click:true,
-            scrollY:true
-          })
-        })
-      }else{
-        this.right.refresh()
-      }
-    },
+
+//    beforeUpdate(){
+//      //左侧滑动
+//      this.$nextTick(()=>{
+//        if(!this.left){
+//          this.$nextTick(()=>{
+//            console.log(11)
+//
+//          })
+//        }else{
+//          this.left.refresh()
+//        }
+//      })
+//
+//      //右侧滑动
+//      if(!this.right){
+//      }else{
+//        this.right.refresh()
+//      }
+//    },
 
     methods:{
       handleclick(index){

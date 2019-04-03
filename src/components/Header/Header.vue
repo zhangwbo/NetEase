@@ -90,7 +90,6 @@
     width 750px
     height 148px
     background #fff
-    overflow hidden
     .header-top
       display flex
       justify-content space-around
@@ -99,7 +98,6 @@
       .logo
         width 138px
         height 40px
-        display inline-block
         background-image url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexLogo-a90bdaae6b.png")
         background-repeat no-repeat
       .search
@@ -124,9 +122,9 @@
         color #b4282d
         font-size 28px
     .nav
-      position relative
+      width 100%
+      height 60px
       .navList
-        position relative
         display flex
         width 1460px
         height 60px

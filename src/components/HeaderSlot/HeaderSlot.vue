@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header id="top">
 
-    <div class="left">
+    <div class="leftSlot">
       <slot name="left"></slot>
       <slot name="cart"></slot>
     </div>
@@ -13,7 +13,7 @@
     </div>
 
 
-    <div class="right">
+    <div class="rightSlot">
       <slot name="right"></slot>
       <slot name="cartRight"></slot>
     </div>
@@ -26,7 +26,7 @@
 </script>
 
 <style lang="stylus" type="text/stylus">
-  header
+  #top
     box-sizing border-box
     height 88px
     background #fff
@@ -34,7 +34,7 @@
     justify-content space-between
     align-items center
     padding 0 20px 0 30px
-    .left
+    .leftSlot
       font-size 35px
       .iconfont
         font-size 50px
@@ -54,7 +54,7 @@
           font-size 40px
           font-weight 700
           color #b4282d
-    .right
+    .rightSlot
       font-size 30px
       .iconfont
         margin-left 15px

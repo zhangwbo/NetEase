@@ -9,12 +9,13 @@ const state ={
 }
 
 const actions = {
-  async getCategory ({commit,state}){
+  async getCategory ({commit,state},callback){
     const result = await reqCategory()
 
     if(result){
       const category = result
       commit(RECEIVE_CATEGORY,category)
+      typeof callback === 'function' && callback()
     }
   }
 }

@@ -21,18 +21,23 @@
     <div class="commodity">
       <img src="http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noCart-d6193bd6e4.png" alt="">
       <span>去添加点什么吧</span>
-      <button>登录</button>
+      <button @click="togoLogin">登录</button>
     </div>
   </div>
 </template>
 
 <script>
-  export default{}
+  export default{
+    methods:{
+      togoLogin(){
+        this.$router.replace('/personal')
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" type="text/stylus">
   #cartController
-
     .list
       display flex
       justify-content space-between
