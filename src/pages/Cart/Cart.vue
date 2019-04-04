@@ -4,6 +4,7 @@
       <span slot="cart">购物车</span>
       <span slot="cartRight">领劵</span>
     </HeaderSlot>
+
     <ul class="list">
       <li>
         <i class="iconfont icon-yuandian"></i>

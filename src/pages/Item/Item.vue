@@ -1,11 +1,12 @@
 <template>
   <div id="ItemController" >
     <HeaderSlot>
-      <div class="search" slot="search">
+      <div class="search" slot="search" @click="$router.push('/search')">
         <i class="iconfont icon-sousuo"></i>
         <span>搜索商品，共22487款好物</span>
       </div>
     </HeaderSlot>
+
     <section >
       <div class="left">
         <ul class="leftUl">
@@ -65,26 +66,6 @@
       })
     },
 
-
-//    beforeUpdate(){
-//      //左侧滑动
-//      this.$nextTick(()=>{
-//        if(!this.left){
-//          this.$nextTick(()=>{
-//            console.log(11)
-//
-//          })
-//        }else{
-//          this.left.refresh()
-//        }
-//      })
-//
-//      //右侧滑动
-//      if(!this.right){
-//      }else{
-//        this.right.refresh()
-//      }
-//    },
 
     methods:{
       handleclick(index){

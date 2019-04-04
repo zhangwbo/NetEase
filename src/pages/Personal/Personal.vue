@@ -8,7 +8,7 @@
         <a href="javascript:;">网易严选</a>
       </div>
       <div slot="right">
-        <i class="iconfont icon-sousuo"></i>
+        <i class="iconfont icon-sousuo" @click="$router.push('/search')"></i>
         <i class="iconfont icon-gouwuche"></i>
       </div>
     </HeaderSlot>
@@ -20,12 +20,12 @@
 
       <div class="loginMethods">
 
-        <a class="phone" href="javascript:;">
+        <a class="phone" href="javascript:;" @click="$router.replace('/phonelogin')">
           <i class="iconfont icon-shouji"></i>
           <span>手机号码登录</span>
         </a>
 
-        <a class="mail" href="javascript:;">
+        <a class="mail" href="javascript:;" @click="$router.replace('/maillogin')">
           <i class="iconfont icon-youjian"></i>
           <span>邮箱账号登录</span>
         </a>

@@ -3,11 +3,11 @@
     <!--头部logo，搜索，登录-->
     <div class="header-top">
       <a href="http://m.you.163.com/" class="logo"></a>
-      <div class="search">
+      <div class="search" @click="$router.push('/search')">
         <i class="iconfont icon-search"></i>
         <span>搜索商品，共22111款好物</span>
       </div>
-      <button class="btn">登录</button>
+      <button class="btn" @click="$router.replace('/personal')">登录</button>
     </div>
 
     <!--头部导航-->
@@ -80,7 +80,8 @@
       //点击显示全部导航列表
       handleMenu(){
         this.isShow = !this.isShow
-      }
+      },
+
     },
   }
 </script>

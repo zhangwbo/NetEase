@@ -14,29 +14,23 @@
         <i class="iconfont icon-gouwuche"></i>
       </div>
     </HeaderSlot>
-
     <div class="top_login">
       <div class="top_img">
         <img src="//yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png" alt="">
       </div>
 
       <label class="input_phone">
-        <div class="login_tips">
-          <p></p>
-          <p></p>
-        </div>
-        <input type="text" placeholder="请输入手机号" v-model="phone"/>
+        <input type="text" placeholder="请输入邮箱" v-model="e_mail"/>
       </label>
       <label class="input_code">
-        <input type="text" placeholder="请输入手机验证码" v-model="code"/>
-        <div class="get_phone_code">获取验证码</div>
+        <input type="password" placeholder="请输入密码" v-model="pwd"/>
       </label>
 
       <div class="login_help">
         <span>遇到问题? </span>
         <span>使用密码验证登录</span>
       </div>
-      <div class="phone_login active" @click="handelLogin" >
+      <div class="phone_login active" @click="handelLogin">
         <span>登录</span>
       </div>
       <div class="email_login" @click="$router.push('/personal')">
@@ -51,23 +45,23 @@
   export default{
     data(){
       return{
-        phone:'',
-        code:''
+        e_mail:'',
+        pwd:''
       }
     },
 
     computed:{
-      isRightPhone(){
-        return /^1([38][0-9]|4[579]|5[0-3,5-9]|6[6]|7[0135678]|9[89])\d{8}$/.test(this.phone)
+      isRightEmail(){
+        return /^[0-9A-Za-z][\.-_0-9A-Za-z]*@[0-9A-Za-z]+(\.[0-9A-Za-z]+)+$/.test(this.e_mail)
       }
     },
 
     methods:{
       handelLogin(){
-        if(!this.isRightPhone){
-          return alert('请输入正确的手机号')
-        }else if(!/^\d{6}$/.test(this.code)){
-          return alert('验证码有误')
+        if(!this.isRightEmail){
+          return alert('请输入正确的邮箱地址')
+        }else if (!/^[\w_-]{6,16}$/.test(this.pwd)){
+          return alert('密码格式为字母加数字或_,-')
         }else{
           return alert('登陆成功')
         }

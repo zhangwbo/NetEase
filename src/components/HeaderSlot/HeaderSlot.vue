@@ -27,6 +27,7 @@
 
 <style lang="stylus" type="text/stylus">
   #top
+    position relative
     box-sizing border-box
     height 88px
     background #fff
@@ -34,6 +35,7 @@
     justify-content space-between
     align-items center
     padding 0 20px 0 30px
+    z-index 10
     .leftSlot
       font-size 35px
       .iconfont
